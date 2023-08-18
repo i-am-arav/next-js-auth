@@ -1,8 +1,7 @@
 "use client";
-
+import React from 'react';
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import React from "react";
 import toast from "react-hot-toast";
 
 const ProfilePage = () => {

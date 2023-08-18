@@ -48,7 +48,7 @@ const SignupPage: FC = () => {
       <hr />
       <label htmlFor="username">Username</label>
       <input
-      className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
+      className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
         id="username"
         type={"text"}
         value={user.username}
@@ -60,7 +60,7 @@ const SignupPage: FC = () => {
 
 <label htmlFor="email">Email</label>
       <input
-      className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
+      className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
         id="email"
         type={"text"}
         value={user.email}
@@ -72,7 +72,7 @@ const SignupPage: FC = () => {
 
 <label htmlFor="password">Password</label>
       <input
-      className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
+      className="p-2 border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
         id="password"
         type={"text"}
         value={user.password}
